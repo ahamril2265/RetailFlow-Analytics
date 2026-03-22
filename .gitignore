@@ -1,0 +1,21 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Data (never commit raw data)
+data/raw/
+data/processed/
+data/warehouse/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Airflow
+airflow.db
+airflow.cfg
